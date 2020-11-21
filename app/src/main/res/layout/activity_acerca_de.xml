@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".barra_menu.Acerca_de"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/actionbar"
+        layout="@layout/actionbar" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="40sp"
+        android:gravity="center"
+        android:text="@string/acerca"
+        android:textSize="30dp"
+        android:layout_marginTop="60dp"/>
+
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textNom"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:text="@string/acercaNom"
+            android:textSize="20dp"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/textNombre"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="@string/acercaNom1"
+            android:layout_margin="16dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="20sp"
+            android:text="@string/acercaOcupa"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textFecha"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20sp"
+            android:text="@string/acercaOcupa1"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textTelefono"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:text="@string/acercaEdad"
+            android:textSize="20dp"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/textTel"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20sp"
+            android:textSize="20dp"
+            android:text="@string/acercaEdad1"
+            android:layout_margin="16dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textCorreo"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:text="@string/acercaNacio"
+            android:textSize="20dp"
+            android:layout_margin="16dp"/>
+
+
+        <TextView
+            android:id="@+id/textEmail"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20sp"
+            android:textSize="20dp"
+            android:text="@string/acercaNacio1"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textDescripcion"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:text="@string/acercaRes"
+            android:textSize="20dp"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:id="@+id/textDescrip"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20sp"
+            android:textSize="20dp"
+            android:text="@string/acercaRes1"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

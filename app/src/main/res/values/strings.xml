@@ -1,0 +1,31 @@
+<resources>
+
+
+    <string name="Nombre">Nombre</string>
+    <string name="Cont">0</string>
+    <string name="menu">Contacto</string>
+    <string name="menu1">Acerca de</string>
+    <string name="fav">Petagram</string>
+    <string name="titulo">Habla con nosotros</string>
+    <string name="email">Email</string>
+    <string name="descrip">Mensaje</string>
+    <string name="boton">Enviar comentario</string>
+    <string name="acerca">Acerca de petegram </string>
+    <string name="acercaNom">Desarrollador: </string>
+    <string name="acercaNom1">Sergio Vanegas </string>
+    <string name="acercaOcupa">Ocupacion : </string>
+    <string name="acercaOcupa1"> Ingeniero de sistemas </string>
+    <string name="acercaEdad"> Edad :</string>
+    <string name="acercaEdad1"> 22 años</string>
+    <string name="acercaNacio"> Nacionalidad :</string>
+    <string name="acercaNacio1"> Colombiana</string>
+    <string name="acercaRes"> Residencia :</string>
+    <string name="acercaRes1"> Puerto Salgar (Cundinamarca)</string>
+    <string name="NombrePerro">Tarcan</string>
+
+
+
+
+
+
+</resources>
